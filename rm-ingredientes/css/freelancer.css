@@ -379,7 +379,21 @@ section.success a.active {
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
+/*Indexado a footer*/
+.texto-footer-pasta{
+font-size: 12px;
+color: white;
+}
+.parrafo-footer{
+    font-size: 18px;
+    color: #A4BD32;
+}
+.texto-footer{
+    font-size: 18px;
+    color: #EA881E;
 
+}
+/*fin de indexado a footer*/
 footer {
     color: #fff;
 }
