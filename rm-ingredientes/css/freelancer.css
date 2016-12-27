@@ -3,8 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@font-face{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    src: url(../fonts/tahoma.ttf);
+}
 
-body {
+ body {
     overflow-x: hidden;
 }
 
@@ -32,7 +36,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
     font-weight: 700;
 }
 
@@ -78,7 +82,11 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
+.img-icon {
+    /*width: 50%;*/
+    width: 65%;
 
+}
 header {
     text-align: center;
     color: #fff;
@@ -98,7 +106,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -125,7 +133,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        /*padding: 25px 0;*/
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -149,7 +158,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
     font-weight: 700;
 }
 
@@ -169,6 +178,43 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
+/*Integrado al nav*/
+.menutext:hover {
+    color: #83A40D !important;
+    content:          "";
+    height:           3px;
+    left:             0;
+    background: #444;
+    width:            60%;
+    margin-top: 10px !important;
+    text-align: center;
+    background: -moz-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,136,30,1)), color-stop(63%, rgba(234,136,30,1)), color-stop(77%, rgba(131,164,13,1)), color-stop(100%, rgba(131,164,13,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ie10+ */
+    background: linear-gradient(91deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA881E', endColorstr='#83A40D',GradientType=1 ); /* ie6-9 */*/
+}
+.menutext{
+   color: white;
+       margin-top: 10px !important;
+       border-top: 1px solid #ffffff; 
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #83A40D !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #EA881D !important;
+    /*padding-bottom: 2px;*/
+    padding-bottom:   1px;
+
+}
+.navbar-default {
+    background-color: white !important;
+    
+}
+/*fin de intregar al nav*/
 
 section {
     padding: 100px 0;
@@ -457,3 +503,29 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+/*titulos*/
+.titulo-contactanos{
+    color: #A4BD31;
+}
+/*fin titulos*/
+
+/*Placeholder formularios*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #EA881E !important;
+  font-size: 22px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #EA881E !important;
+   font-size: 22px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #EA881E !important;
+   font-size: 22px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #EA881E !important;
+   font-size: 22px;
+
+}
+/* Fin Placeholder formularios*/
