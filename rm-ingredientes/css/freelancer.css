@@ -590,13 +590,13 @@ footer .footer-below {
 /*barra degradada y blanca*/
 .color-degradado{
    padding: 10px 0;
-   background: -moz-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ff3.6+ */
-   background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,136,30,1)), color-stop(63%, rgba(234,136,30,1)), color-stop(77%, rgba(131,164,13,1)), color-stop(100%, rgba(131,164,13,1))); /* safari4+,chrome */
-   background: -webkit-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* safari5.1+,chrome10+ */
-   background: -o-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* opera 11.10+ */
-   background: -ms-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ie10+ */
-   background: linear-gradient(91deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* w3c */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA881E', endColorstr='#83A40D',GradientType=1 ); /* ie6-9 */*/
+   background: -moz-linear-gradient(45deg, rgba(253,156,28,1) 0%, rgba(253,156,28,1) 57%, rgba(139,179,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(253,156,28,1)), color-stop(57%, rgba(253,156,28,1)), color-stop(100%, rgba(139,179,0,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(253,156,28,1) 0%, rgba(253,156,28,1) 57%, rgba(139,179,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(253,156,28,1) 0%, rgba(253,156,28,1) 57%, rgba(139,179,0,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(253,156,28,1) 0%, rgba(253,156,28,1) 57%, rgba(139,179,0,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(253,156,28,1) 0%, rgba(253,156,28,1) 57%, rgba(139,179,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8BB300', endColorstr='#FD9C1C',GradientType=1 ); /* ie6-9 */
 }
 .color-fondo-blanco{
     background-color: white;
