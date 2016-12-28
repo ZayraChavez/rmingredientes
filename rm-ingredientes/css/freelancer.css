@@ -3,12 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-@font-face{
+ @font-face{
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     src: url(../fonts/tahoma.ttf);
 }
 
- body {
+body {
     overflow-x: hidden;
 }
 
@@ -130,8 +130,8 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
     .espacio-columna{
-    margin-top: 1% !important;
-}
+        margin-top: 1% !important;
+    }
 }
 
 @media(min-width:768px) {
@@ -208,8 +208,8 @@ header .intro-text .skills {
 
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-        background-color: #ffffff;
-    }
+    background-color: #ffffff;
+}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #83A40D !important;
 }
@@ -393,15 +393,15 @@ form .row:first-child .floating-label-form-group {
     margin-top: 7.5% !important;
 }
 .espacio-lista{
-margin-left: -6px !important;
+    margin-left: -6px !important;
 }
 .espacio-iconos {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
 .texto-footer-pasta{
-font-size: 12px;
-color: white;
+    font-size: 12px;
+    color: white;
 }
 .parrafo-footer{
     font-size: 18px;
@@ -423,8 +423,8 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-   /* background-color: #2c3e50; Original */
-   background-color: #444444;
+    /* background-color: #2c3e50; Original */
+    background-color: #444444;
 }
 
 footer .footer-col {
@@ -563,28 +563,71 @@ footer .footer-below {
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: #EA881E !important;
-   font-size: 22px;
+  font-size: 22px;
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: #EA881E !important;
-   font-size: 22px;
+  font-size: 22px;
 }
 :-moz-placeholder { /* Firefox 18- */
   color: #EA881E !important;
-   font-size: 22px;
+  font-size: 22px;
 
 }
 /* Fin Placeholder formularios*/
 
-/*barra degradada*/
+/*barra degradada y blanca*/
 .color-degradado{
- padding: 10px 0;
-    background: -moz-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,136,30,1)), color-stop(63%, rgba(234,136,30,1)), color-stop(77%, rgba(131,164,13,1)), color-stop(100%, rgba(131,164,13,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ie10+ */
-    background: linear-gradient(91deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* w3c */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA881E', endColorstr='#83A40D',GradientType=1 ); /* ie6-9 */*/
+   padding: 10px 0;
+   background: -moz-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ff3.6+ */
+   background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,136,30,1)), color-stop(63%, rgba(234,136,30,1)), color-stop(77%, rgba(131,164,13,1)), color-stop(100%, rgba(131,164,13,1))); /* safari4+,chrome */
+   background: -webkit-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* safari5.1+,chrome10+ */
+   background: -o-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* opera 11.10+ */
+   background: -ms-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ie10+ */
+   background: linear-gradient(91deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* w3c */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA881E', endColorstr='#83A40D',GradientType=1 ); /* ie6-9 */*/
+}
+.color-fondo-blanco{
+    background-color: white;
+    padding: 10px 0;
 }
 /*fin de barra degradada*/
+.fondo-caja{
+    background-color: #F9F9F9 !important;
+}
+/*Sección de contacto*/
+.quitar-linea{
+    border-top: 1px solid #ffffff !important; 
+    border-bottom: 1px solid #ffffff !important; 
+}
+.btn-naraja {
+    color: #ffffff;
+    background-color: #EA881E !important;
+    border-color: #EA881E !important;
+    border-radius: 0px !important;
+    padding: 8px 22px !important;
+    font-size: 24px !important;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+}
+.parrafo-contacto{
+    color: #444444;
+    font-size: 18px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+/*Fin sección de contacto*/
+/*Productos*/
+.fondo-productos{
+background-image: url(../img/fondo-productos.jpg);
+width: 100%;
+}
+.titulo-productos{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.margen-color{
+    border: 6px solid white;
+    padding: 6px;
+}
+/*Fin productos*/
