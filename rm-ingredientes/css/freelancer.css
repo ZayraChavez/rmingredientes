@@ -14,6 +14,7 @@
 
 p {
     font-size: 20px;
+    color: #444444;
 }
 
 p.small {
@@ -40,6 +41,12 @@ h6 {
     font-weight: 700;
 }
 
+h1{
+    font-size: 60px;
+}
+h4{
+    font-size: 20px;
+}
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -84,7 +91,7 @@ hr.star-primary:after {
 }
 .img-icon {
     /*width: 50%;*/
-    width: 65%;
+    width: 79%;
 
 }
 header {
@@ -118,8 +125,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 395px;
     }
 
     header .intro-text .name {
@@ -137,7 +144,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     .navbar-fixed-top {
         /*padding: 25px 0;*/
-        padding: 10px 0;
+        padding: 0 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -151,7 +158,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -171,6 +178,7 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    margin-top: 0.8%;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -189,7 +197,7 @@ header .intro-text .skills {
     left:             0;
     background: #444;
     width:            60%;
-    margin-top: 10px !important;
+    margin-top: 0 !important;
     text-align: center;
     background: -moz-linear-gradient(359deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(234,136,30,1)), color-stop(63%, rgba(234,136,30,1)), color-stop(77%, rgba(131,164,13,1)), color-stop(100%, rgba(131,164,13,1))); /* safari4+,chrome */
@@ -206,6 +214,9 @@ header .intro-text .skills {
     border: 0;
     border-top: 0px solid #ecf0f1;
 
+}
+.li-separation{
+        padding: 0 28px !important;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
         background-color: #ffffff;
@@ -587,4 +598,28 @@ footer .footer-below {
     background: linear-gradient(91deg, rgba(234,136,30,1) 0%, rgba(234,136,30,1) 63%, rgba(131,164,13,1) 77%, rgba(131,164,13,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA881E', endColorstr='#83A40D',GradientType=1 ); /* ie6-9 */*/
 }
+.row-white{
+    padding: 10px 0;
+    background-color: white;
+}
 /*fin de barra degradada*/
+
+
+/*conocenos*/
+.background-header{
+    background-image: url('../img/fondo-portada-rmingredientes.jpg');
+    width: 100%;
+    height: 100%;
+}
+.back-conocenos{
+    background-color: #FD9C1C;
+    padding: 0 !important;
+}
+.font-color-conocenos{
+    color: #444444;
+}
+.p-conocenos{
+    margin: 3% 4% !important;
+}
+
+
