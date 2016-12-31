@@ -79,11 +79,11 @@
         </nav>
 
         <!-- Header -->
-        <header class="background-header" id="conocenos2">
+        <header class="background-header">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <img class="img-responsive" src="img/logo-portada-rmingredientes.png" alt="RM Ingredientes">
+                        <img  id="conocenos2" class="img-responsive" src="img/logo-portada-rmingredientes.png" alt="RM Ingredientes">
                     </div>
                 </div>
             </div>
@@ -122,48 +122,47 @@
                     <div class="row">
                         <div class="col-sm-3 portfolio-item">
                             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="caption img-circle">
+                                <div id="maiz" class="caption img-circle">
                                     <div class="caption-content ">
                                         <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt=""></i>
-
                                     </div>
                                 </div>
                                 <img src="img/tortillas-productos.jpg" class="margen-color img-responsive img-circle hover-productos" alt="">
                             </a>
-                            <p class="texto-productos">Tortillas<br> de Maíz</p>
+                            <p id="texto-maiz" class="texto-productos">Tortillas<br> de Maíz</p>
                         </div>
                         <div class="col-sm-3 portfolio-item">
                             <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="caption img-circle">
+                                <div id="harina" class="caption img-circle">
                                     <div class="caption-content">
                                      <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt=""></i>
                                  </div>
                              </div>
                              <img src="img/tortillas-harina-productos.jpg" class="margen-color img-responsive img-circle" alt="">
                          </a>
-                         <p class="texto-productos">Tortillas<br> de Harina</p>
+                         <p id="texto-harina"class="texto-productos">Tortillas<br> de Harina</p>
                      </div>
                      <div class="col-sm-3 portfolio-item">
                         <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <div class="caption img-circle">
+                            <div id="panificadoras" class="caption img-circle">
                                 <div class="caption-content">
                                     <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt=""></i>
                                 </div>
                             </div>
                             <img src="img/panificadoras-productos.jpg" class="margen-color img-responsive img-circle" alt="">
                         </a>
-                        <p class="texto-productos">Panificadoras</p>
+                        <p  id="texto-panificadoras" class="texto-productos">Panificadoras</p>
                     </div>
                     <div class="col-sm-3 portfolio-item">
                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="caption img-circle">
+                            <div id="especial" class="caption img-circle">
                                 <div class="caption-content">
                                    <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt=""></i>
                                </div>
                            </div>
                            <img src="img/especializado-productos.jpg" class="margen-color img-responsive img-circle" alt="">
                        </a>
-                       <p class="texto-productos">Especializado</p>
+                       <p id="texto-especial" class="texto-productos">Especializado</p>
                    </div>
                 <!--     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
@@ -259,21 +258,21 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls quitar-linea">
                             <label>NOMBRE</label>
-                            <input type="text" class="form-control fondo-caja" placeholder=" NOMBRE" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control fondo-caja" placeholder=" NOMBRE" id="name" required data-validation-required-message="Por favor ingresa tu nombre">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls quitar-linea">
                             <label>CORREO ELECTRÓNICO</label>
-                            <input type="email" class="form-control fondo-caja" placeholder=" CORREO ELECTRÓNICO" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control fondo-caja" placeholder=" CORREO ELECTRÓNICO" id="email" required data-validation-required-message="Por favor ingresa tu email">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls quitar-linea">
                             <label>TELÉFONO</label>
-                            <input type="tel" class="form-control fondo-caja" placeholder=" TELÉFONO" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="tel" class="form-control fondo-caja" placeholder=" TELÉFONO" id="phone" required data-validation-required-message="Por favor ingresa tu número de telefono">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -281,7 +280,7 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls quitar-linea">
                             <label>PRODUCTO DE INTERÉS</label>
-                            <input type="tel" class="form-control fondo-caja" placeholder=" PRODUCTO DE INTERÉS" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="text" class="form-control fondo-caja" placeholder=" PRODUCTO DE INTERÉS" id="product" required data-validation-required-message="Por favor ingresa al menos un producto">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -292,7 +291,7 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls quitar-linea">
                             <label>MENSAJE</label>
-                            <textarea rows="9" class="form-control fondo-caja" placeholder=" MENSAJE" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <textarea rows="9" class="form-control fondo-caja" placeholder=" MENSAJE" id="message" required data-validation-required-message="Por favor ingresa tu mensaje"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>

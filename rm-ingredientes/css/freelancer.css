@@ -693,12 +693,19 @@ z-index: 1051;
 .p-conocenos{
     margin: 3% 4% !important;
 }
-.texto-productos{
-    font-size: 32px;
+.texto-productos {
+    font-size: 30px;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
-    color: white;
+    color: #ffffff;
     text-align: center;
-
+    font-weight: 600;
+}
+.texto-productos-hover {
+    font-size: 30px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: #444444;
+    text-align: center;
+    font-weight: 600;
 }
 .parrafo-productos{
     font-size: 26px;
@@ -713,7 +720,7 @@ z-index: 1051;
     text-align: center;
     margin-top: 6%;
 }
-.hover-productos:hover{
+/*.hover-productos:hover{
     background-image: url(../img/especializado-productos-hover.jpg);
     position: absolute;
     width: 100%;
@@ -725,7 +732,7 @@ z-index: 1051;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 
-}
+}*/
 /*Fin productos*/
 /*modales*/
 .titulo-modal{

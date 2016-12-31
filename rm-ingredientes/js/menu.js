@@ -32,5 +32,43 @@ $(document).ready(function(){
 		$("#hr-contacto").removeClass("menutext2");
 	});
 
+
+
+
+		// seccion de hovers de productos 
+		// maiz
+	$("#maiz").hover(function(){
+		$("#texto-maiz").removeClass("texto-productos");
+		$("#texto-maiz").addClass("texto-productos-hover");
+	}, function(){
+		$("#texto-maiz").addClass("texto-productos");
+		$("#texto-maiz").removeClass("texto-productos-hover");
+	});
+	// harina
+	$("#harina").hover(function(){
+		$("#texto-harina").removeClass("texto-productos");
+		$("#texto-harina").addClass("texto-productos-hover");
+	}, function(){
+		$("#texto-harina").addClass("texto-productos");
+		$("#texto-harina").removeClass("texto-productos-hover");
+	});
+	// panificadoras
+	$("#panificadoras").hover(function(){
+		$("#texto-panificadoras").removeClass("texto-productos");
+		$("#texto-panificadoras").addClass("texto-productos-hover");
+	}, function(){
+		$("#texto-panificadoras").addClass("texto-productos");
+		$("#texto-panificadoras").removeClass("texto-productos-hover");
+	});
+	// especial
+	$("#especial").hover(function(){
+		$("#texto-especial").removeClass("texto-productos");
+		$("#texto-especial").addClass("texto-productos-hover");
+	}, function(){
+		$("#texto-especial").addClass("texto-productos");
+		$("#texto-especial").removeClass("texto-productos-hover");
+	});
+
+
 });
 
