@@ -70,5 +70,21 @@ $(document).ready(function(){
 	});
 
 
+
+
+	// funcionalidad de videos
+	$("#video1").click(function(){
+		$(".video").html("<iframe width='70%' height='400' src='https://www.youtube.com/embed/8pBecokPpVs' frameborder='0' allowfullscreen></iframe>");
+		$("#titulo-video").text("Titulo del video 1");
+		$("#descripcion-video").text("Titulo del video 1");
+	});
+
+	$("#video2").click(function(){
+		$(".video").html("<iframe width='70%' height='400' src='https://www.youtube.com/embed/Yw-FSUEc8Pc' frameborder='0' allowfullscreen></iframe>");
+		$("#titulo-video").text("Titulo del video 2");
+		$("#descripcion-video").text("Titulo del video 2");
+	});
+
+
 });
 
