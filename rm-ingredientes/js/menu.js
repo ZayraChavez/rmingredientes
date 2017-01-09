@@ -74,13 +74,13 @@ $(document).ready(function(){
 
 	// funcionalidad de videos
 	$("#video1").click(function(){
-		$(".video").html("<iframe width='70%' height='400' src='https://www.youtube.com/embed/8pBecokPpVs' frameborder='0' allowfullscreen></iframe>");
-		$("#titulo-video").text("Titulo del video 1");
-		$("#descripcion-video").text("Titulo del video 1");
+		$(".video").html("<iframe style='border-radius: 2%' width='70%' height='400' src='https://www.youtube.com/embed/P-Kq9edwyDs?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>");
+		$("#titulo-video").text("Tortillas de Maíz");
+		$("#descripcion-video").text("Lorem ipsum dolor sit amet, consectetur adipisicing elit.");
 	});
 
 	$("#video2").click(function(){
-		$(".video").html("<iframe width='70%' height='400' src='https://www.youtube.com/embed/Yw-FSUEc8Pc' frameborder='0' allowfullscreen></iframe>");
+		$(".video").html("<iframe style='border-radius: 2%' width='70%' height='400' src='https://www.youtube.com/embed/Yw-FSUEc8Pc' frameborder='0' allowfullscreen></iframe>");
 		$("#titulo-video").text("Titulo del video 2");
 		$("#descripcion-video").text("Titulo del video 2");
 	});
