@@ -90,7 +90,9 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 .img-icon {
+    /*width: 50%;*/
     width: 79%;
+
 }
 header {
     text-align: center;
@@ -122,7 +124,6 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-
     header .container {
         padding-top: 120px;
         padding-bottom: 395px;
@@ -138,21 +139,9 @@ header .intro-text .skills {
     .espacio-columna{
         margin-top: 1% !important;
     }
-    .titulo-contactanos{
-    font-size: 30px;
-}
-
-.titulo-productos{
-    font-size: 30px;
-}
-  .parrafo-contacto {
-    text-align: center;
-}
 }
 
 @media(min-width:768px) {
-
- 
     .navbar-fixed-top {
         /*padding: 25px 0;*/
         padding: 0 0;
@@ -428,7 +417,6 @@ form .row:first-child .floating-label-form-group {
 .espacio-iconos {
     padding-left: 0px !important;
     padding-right: 0px !important;
-
 }
 .texto-footer-pasta{
     font-size: 12px;
@@ -601,7 +589,6 @@ z-index: 1051;
 /*titulos*/
 .titulo-contactanos{
     color: #A4BD31;
-       font-size: 60px;
 }
 /*fin titulos*/
 
@@ -649,6 +636,7 @@ z-index: 1051;
     background-color: #F9F9F9 !important;
 }
 /*Sección de contacto*/
+<<<<<<< HEAD
 .espacio-contacto{
     padding-left: 11px !important;
     padding-right: 21px !important;
@@ -657,6 +645,8 @@ z-index: 1051;
   padding-left: 1px !important;
     padding-right: 0px !important;
 }
+=======
+>>>>>>> parent of 33dd5ff... Responsive page
 .quitar-linea{
     border-top: 1px solid #ffffff !important; 
     border-bottom: 1px solid #ffffff !important; 
@@ -669,7 +659,6 @@ z-index: 1051;
     padding: 8px 22px !important;
     font-size: 24px !important;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
-        margin-bottom: -17%;
 
 }
 .parrafo-contacto{
@@ -687,7 +676,7 @@ z-index: 1051;
 }
 .titulo-productos{
     font-family: Tahoma, Verdana, Segoe, sans-serif;
-       font-size: 60px;
+    font-size: 60px;
     color: white;
 }
 .margen-color{
@@ -720,9 +709,12 @@ z-index: 1051;
 }
 .p-conocenos{
     margin: 3% 4% !important;
+<<<<<<< HEAD
     text-align: center;
     font-weight: 900;
     font-size: 22px;
+=======
+>>>>>>> parent of 33dd5ff... Responsive page
 }
 .texto-productos {
     font-size: 30px;
@@ -767,10 +759,10 @@ z-index: 1051;
 /*Fin productos*/
 /*modales*/
 .titulo-modal{
-    font-size: 30px;
+    font-size: 1em;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     color: #FD9C1C;
-    text-align: left;
+    text-align: center;
 }
 .parrafo-modal{
     font-size: 1em;
@@ -778,6 +770,7 @@ z-index: 1051;
     color: #444444;
     text-align: justify;
 }
+<<<<<<< HEAD
 .menu-hamburguesa {
     position: relative;
     float: right;
@@ -971,3 +964,6 @@ Full screen Modal
      width: 1170px;
   }
 }
+=======
+/*fin modales*/
+>>>>>>> parent of 33dd5ff... Responsive page
