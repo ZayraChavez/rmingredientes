@@ -216,18 +216,18 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2">
-                <img id="video1"  style="border-radius: 2%" class="img-responsive" src="img/portfolio/cabin.png" alt="">
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <img id="video1"  style="border-radius: 2%" class="img-responsive" src="img/video-maiz.png" alt="">
             </div>
-            <div class="col-md-2">
-                <img id="video2" style="border-radius: 2%" class="img-responsive" src="img/portfolio/cabin.png" alt="">
+            <div class="col-md-3">
+                <img id="video2" style="border-radius: 2%" class="img-responsive" src="img/video-harina.png" alt="">
             </div>
             <div class="col-md-4">
                 <h3 id="titulo-video" class="titulo-video">Tortillas de Maíz</h3>
-                <p id="descripcion-video" class="descripcion-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p id="descripcion-video" class="descripcion-video">Utilizamos tres de nuestros productos: Mejorador Pailero, Blancoplus y Diprogel. Logrando una tortilla de mejor calidad.</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
 
         </div>
     </div>
@@ -594,18 +594,18 @@
         var player2;
         function onYouTubePlayerAPIReady() {
             player = new YT.Player('player', {
-              height: '390',
+              height: '315',
               width: '60%',
-              videoId: '0Bmhjf0rKe8',
+              videoId: 'InBee79J62E',
               events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
               }
             });
             player2 = new YT.Player('player2', {
-              height: '390',
-              width: '100%',
-              videoId: 'Yw-FSUEc8Pc',
+              height: '315',
+              width: '60%',
+              videoId: 'bQ18EVmbddM',
               events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
@@ -615,16 +615,26 @@
 
         // autoplay video
        function onPlayerReady(event) {
-      $('#demostraciones').click(
+        $('#demostraciones').click(
            function(){ 
             player.playVideo();
          })
+          $(window).scroll(function(e) {
+
+        var scrollAmount = $('body').scrollTop();   
+        console.log(scrollAmount);
+
+        if (scrollAmount >= 2233 && scrollAmount <= 2300) {
+            player.playVideo();
+        }
+        })
+
         }
 
         // when video ends
         function onPlayerStateChange(event) {        
-            if(event.data === 0) {          
-                player.playVideo();
+            if(event.data === 0) {  
+                player.loadVideoById("bQ18EVmbddM");
             }
         }
 
