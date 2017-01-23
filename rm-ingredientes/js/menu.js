@@ -74,15 +74,15 @@ $(document).ready(function(){
 
 	// funcionalidad de videos
 	$("#video1").click(function(){
-		$(".video").html("<iframe style='border-radius: 2%' width='70%' height='400' src='https://www.youtube.com/embed/P-Kq9edwyDs?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>");
+		$(".video").html("<iframe style='border-radius: 2%' width='60%' height='315' src='https://www.youtube-nocookie.com/embed/InBee79J62E?autoplay=1' frameborder='0' allowfullscreen></iframe>");
 		$("#titulo-video").text("Tortillas de Maíz");
-		$("#descripcion-video").text("Lorem ipsum dolor sit amet, consectetur adipisicing elit.");
+		$("#descripcion-video").text("Utilizamos tres de nuestros productos: Mejorador Pailero, Blancoplus y Diprogel. Logrando una tortilla de mejor calidad.");
 	});
 
 	$("#video2").click(function(){
-		$(".video").html("<iframe style='border-radius: 2%' width='70%' height='400' src='https://www.youtube.com/embed/Yw-FSUEc8Pc' frameborder='0' allowfullscreen></iframe>");
-		$("#titulo-video").text("Titulo del video 2");
-		$("#descripcion-video").text("Titulo del video 2");
+		$(".video").html("<iframe style='border-radius: 2%' width='60%' height='315' src='https://www.youtube-nocookie.com/embed/bQ18EVmbddM?autoplay=1' frameborder='0' allowfullscreen></iframe>");
+		$("#titulo-video").text("Tortillas de Harina");
+		$("#descripcion-video").text("Utilizamos: Blancoplus, Conserplus, Magico y Suaviplus. Así logramos una tortilla de harina más suave, resistente, durable y con mejor sabor.");
 	});
 
 

@@ -216,18 +216,18 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2">
-                <img id="video1"  style="border-radius: 2%" class="img-responsive" src="img/portfolio/cabin.png" alt="">
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <img id="video1"  style="border-radius: 2%" class="img-responsive" src="img/video-maiz.png" alt="">
             </div>
-            <div class="col-md-2">
-                <img id="video2" style="border-radius: 2%" class="img-responsive" src="img/portfolio/cabin.png" alt="">
+            <div class="col-md-3">
+                <img id="video2" style="border-radius: 2%" class="img-responsive" src="img/video-harina.png" alt="">
             </div>
             <div class="col-md-4">
                 <h3 id="titulo-video" class="titulo-video">Tortillas de Maíz</h3>
-                <p id="descripcion-video" class="descripcion-video">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p id="descripcion-video" class="descripcion-video">Utilizamos tres de nuestros productos: Mejorador Pailero, Blancoplus y Diprogel. Logrando una tortilla de mejor calidad.</p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
 
         </div>
     </div>
@@ -301,19 +301,21 @@
                                 <p class="parrafo-contacto">    618 126 8438</p>
                             </li>
                             <li class="espacio-contacto1">
-                              <img src="img/whatsapp-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%">
-                          </li>
-                          <li class="espacio-contacto1">
-                            <a href="#" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
-                        </li>
-                        <li class="espacio-contacto1">
-                            <a href="#" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
-                        </li>
-                        <li>
-                         <div id="success"></div>
-                         <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn-naraja btn btn-success btn-lg">ENVIAR</button>
+                              <img src="img/whatsapp-rmingredientes.png" alt="WhatsApp RM Ingredientes" width="50%">
+                            </li>
+                            <li class="espacio-contacto1">
+                                <a href="https://www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
+                            </li>
+                            <li class="espacio-contacto1">
+                                <a href="https://www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw
+" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
+                            </li>
+                            <li>
+                             <div id="success"></div>
+                             <div class="row">
+                                <div class="form-group col-xs-12">
+                                    <button type="submit" class="btn-naraja btn btn-success btn-lg">ENVIAR</button>
+                                </div>
                             </div>
                         </div>
 
@@ -353,10 +355,10 @@
                             <img src="img/logo-rmingredientes-footer.png" alt="Logo RM Ingredientes" width="40%">
                             <ul class="list-inline espacio-lista">
                                 <li class="espacio-iconos">
-                                    <a href="#" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
+                                    <a href="https://www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
                                 </li>
                                 <li class="espacio-iconos">
-                                    <a href="#" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
+                                    <a href="https://www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
                                 </li>
                                 <li class="espacio-iconos">
                                     <img src="img/whatsapp-rmingredientes.png" alt="Youtube RM ingredientes" width="50%">
@@ -1296,18 +1298,18 @@ panadería y tortillería se peguen en los moldes y comales.<br>
         var player2;
         function onYouTubePlayerAPIReady() {
             player = new YT.Player('player', {
-              height: '390',
+              height: '315',
               width: '60%',
-              videoId: '0Bmhjf0rKe8',
+              videoId: 'InBee79J62E',
               events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
             }
         });
             player2 = new YT.Player('player2', {
-              height: '390',
-              width: '100%',
-              videoId: 'Yw-FSUEc8Pc',
+              height: '315',
+              width: '60%',
+              videoId: 'bQ18EVmbddM',
               events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
@@ -1316,17 +1318,27 @@ panadería y tortillería se peguen en los moldes y comales.<br>
         }
 
         // autoplay video
-        function onPlayerReady(event) {
-          $('#demostraciones').click(
+       function onPlayerReady(event) {
+        $('#demostraciones').click(
            function(){ 
             player.playVideo();
+         })
+          $(window).scroll(function(e) {
+
+        var scrollAmount = $('body').scrollTop();   
+        console.log(scrollAmount);
+
+        if (scrollAmount >= 2233 && scrollAmount <= 2300) {
+            player.playVideo();
+        }
         })
-      }
+
+        }
 
         // when video ends
         function onPlayerStateChange(event) {        
-            if(event.data === 0) {          
-                player.playVideo();
+            if(event.data === 0) {  
+                player.loadVideoById("bQ18EVmbddM");
             }
         }
 
