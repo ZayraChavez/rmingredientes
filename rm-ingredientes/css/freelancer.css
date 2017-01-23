@@ -92,6 +92,9 @@ hr.star-primary:after {
 .img-icon {
     width: 79%;
 }
+.nav-query{
+     margin-left: 5%;
+}
 header {
     text-align: center;
     color: #fff;
