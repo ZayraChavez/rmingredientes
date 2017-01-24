@@ -218,10 +218,10 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-3">
-                <img id="video1"  style="border-radius: 2%" class="img-responsive" src="img/video-maiz.png" alt="">
+                <img id="video1"  style="border-radius: 2%" class="img-responsive videos" src="img/video-maiz.png" alt="">
             </div>
             <div class="col-md-3">
-                <img id="video2" style="border-radius: 2%" class="img-responsive" src="img/video-harina.png" alt="">
+                <img id="video2" style="border-radius: 2%" class="img-responsive videos" src="img/video-harina.png" alt="">
             </div>
             <div class="col-md-4">
                 <h3 id="titulo-video" class="titulo-video">Tortillas de Maíz</h3>
@@ -1323,15 +1323,17 @@ panadería y tortillería se peguen en los moldes y comales.<br>
            function(){ 
             player.playVideo();
          })
-        //   $(window).scroll(function(e) {
 
-        // var scrollAmount = $('body').scrollTop();   
-        // console.log(scrollAmount);
+          $(window).scroll(function(e) {
 
-        // if (scrollAmount >= 2233 && scrollAmount <= 2300) {
-        //     player.playVideo();
-        // }
-        // })
+        var scrollAmount = $('body').scrollTop();   
+        console.log(scrollAmount);
+
+        if (scrollAmount == 2233) {
+            player.playVideo();
+            return;
+        }
+        })
 
         }
 
