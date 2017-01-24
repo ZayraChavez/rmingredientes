@@ -1015,21 +1015,21 @@ Full screen Modal
   margin: 0;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  width: 90%;
 }
 @media (min-width: 768px) {
   .fullscreen-modal .modal-dialog {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (min-width: 992px) {
   .fullscreen-modal .modal-dialog {
-    width: 100%;
+    width: 90%;
   }
 }
 @media (min-width: 1200px) {
   .fullscreen-modal .modal-dialog {
-     width: 100%;
+     width: 90%;
   }
 }
 .quitarpadding{
