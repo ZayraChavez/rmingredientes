@@ -1,3 +1,17 @@
+<?php
+
+$con = mysql_connect("localhost", root, admin);
+mysql_select_db(visitas, $con);
+
+$consulta_visita_real = "SELECT * FROM visitas WHERE fecha='$hoy' AND ip='".$_SERVER['REMOTE_ADDR']."'";
+$rs_visita_real = mysql_query($consulta_visita_real, $con);
+if (mysql_num_rows($rs_visita_real) == 0) {
+   $hoy = date("Y-m-d");
+   $insert_real = "INSERT INTO visitas (ip, fecha, num) VALUES ('".$_SERVER['REMOTE_ADDR']."', '$hoy', 1)";
+   mysql_query($insert_real, $con);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -218,10 +232,10 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-3">
-                <img id="video1"  style="border-radius: 2%" class="img-responsive" src="img/video-maiz.png" alt="">
+                <img id="video1"  style="border-radius: 2%" class="img-responsive videos" src="img/video-maiz.png" alt="">
             </div>
             <div class="col-md-3">
-                <img id="video2" style="border-radius: 2%" class="img-responsive" src="img/video-harina.png" alt="">
+                <img id="video2" style="border-radius: 2%" class="img-responsive videos" src="img/video-harina.png" alt="">
             </div>
             <div class="col-md-4">
                 <h3 id="titulo-video" class="titulo-video">Tortillas de Maíz</h3>
@@ -1323,15 +1337,17 @@ panadería y tortillería se peguen en los moldes y comales.<br>
            function(){ 
             player.playVideo();
          })
-        //   $(window).scroll(function(e) {
 
-        // var scrollAmount = $('body').scrollTop();   
-        // console.log(scrollAmount);
+          $(window).scroll(function(e) {
 
-        // if (scrollAmount >= 2233 && scrollAmount <= 2300) {
-        //     player.playVideo();
-        // }
-        // })
+        var scrollAmount = $('body').scrollTop();   
+        console.log(scrollAmount);
+
+        if (scrollAmount == 2233) {
+            player.playVideo();
+            return;
+        }
+        })
 
         }
 

@@ -95,6 +95,9 @@ hr.star-primary:after {
 .nav-query{
      margin-left: 5%;
 }
+.videos{
+    cursor: pointer;
+}
 header {
     text-align: center;
     color: #fff;
