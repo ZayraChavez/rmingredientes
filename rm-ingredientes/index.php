@@ -1,17 +1,3 @@
-<?php
-
-$con = mysql_connect("localhost", root, admin);
-mysql_select_db(visitas, $con);
-
-$consulta_visita_real = "SELECT * FROM visitas WHERE fecha='$hoy' AND ip='".$_SERVER['REMOTE_ADDR']."'";
-$rs_visita_real = mysql_query($consulta_visita_real, $con);
-if (mysql_num_rows($rs_visita_real) == 0) {
-   $hoy = date("Y-m-d");
-   $insert_real = "INSERT INTO visitas (ip, fecha, num) VALUES ('".$_SERVER['REMOTE_ADDR']."', '$hoy', 1)";
-   mysql_query($insert_real, $con);
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1393,3 +1379,17 @@ panadería y tortillería se peguen en los moldes y comales.<br>
 </body>
 
 </html>
+
+<?php
+
+$con = mysqli_connect("localhost", "root", "admin","rmingredientes");
+$hoy = date("Y-m-d");
+
+$consulta_visita_real = "SELECT * FROM visitas WHERE fecha='$hoy' AND ip='".$_SERVER['REMOTE_ADDR']."'";
+$rs_visita_real = mysqli_query($con, $consulta_visita_real);
+if (mysqli_num_rows($rs_visita_real) == 0) {
+   $hoy = date("Y-m-d");
+   $insert_real = "INSERT INTO visitas (ip, fecha, num) VALUES ('".$_SERVER['REMOTE_ADDR']."', '$hoy', 1)";
+   mysqli_query($con, $insert_real);
+}
+?>
