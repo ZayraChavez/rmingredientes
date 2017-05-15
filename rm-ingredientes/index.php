@@ -100,15 +100,15 @@
                 </div>
             </div>
             <div class="row">
-               <div class="col-md-6">
-                   <h1 class="text-center font-color-conocenos titulo-conocenos">MISIÓN</h1>
-                   <p class="p-conocenos">
+             <div class="col-md-6">
+                 <h1 class="text-center font-color-conocenos titulo-conocenos">MISIÓN</h1>
+                 <p class="p-conocenos">
                     Ser un aliado estratégico con nuestros clientes, ayudándoles a alcanzar sus metas de negocio proveyéndoles productos de vanguardia.
                 </p>
             </div>
             <div class="col-md-6">
-               <h1 class="text-center font-color-conocenos titulo-conocenos">VISIÓN</h1>
-               <p class="p-conocenos">
+             <h1 class="text-center font-color-conocenos titulo-conocenos">VISIÓN</h1>
+             <p class="p-conocenos">
                 Ser distribuidor a nivel nacional e internacional reconocido por un buen servicio, rapidez y fácil acceso a nuestros productos.
             </p>
         </div>
@@ -132,7 +132,7 @@
         <br>
         <div class="row">
             <div class="col-sm-3 portfolio-item">
-                <a href="#myModal" class="portfolio-link" data-toggle="modal" data-target="#myModal">
+                <a id="tortillas-maiz" href="#myModal" class="portfolio-link" data-toggle="modal" data-target="#myModal">
                     <div id="maiz" class="caption img-circle">
                         <div class="caption-content ">
                             <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
@@ -143,18 +143,18 @@
                 <p id="texto-maiz" class="texto-productos">Tortillas<br> de Maíz</p>
             </div>
             <div class="col-sm-3 portfolio-item">
-                <a href="#myModal2" class="portfolio-link" data-toggle="modal" data-target="#myModal2">
+                <a id="tortillas-harina" href="#myModal2" class="portfolio-link" data-toggle="modal" data-target="#myModal2">
                     <div id="harina" class="caption img-circle">
                         <div class="caption-content">
-                         <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
-                     </div>
-                 </div>
-                 <img src="img/tortillas-harina-productos.jpg" class="margen-color img-responsive img-circle" alt="Tortillas de harina rmingredientes">
-             </a>
-             <p id="texto-harina"class="texto-productos">Tortillas<br> de Harina</p>
-         </div>
-         <div class="col-sm-3 portfolio-item">
-            <a href="#myModal3" class="portfolio-link" data-toggle="modal" data-target="#myModal3">
+                           <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
+                       </div>
+                   </div>
+                   <img src="img/tortillas-harina-productos.jpg" class="margen-color img-responsive img-circle" alt="Tortillas de harina rmingredientes">
+               </a>
+               <p id="texto-harina" class="texto-productos">Tortillas<br> de Harina</p>
+           </div>
+           <div class="col-sm-3 portfolio-item">
+            <a id="panificadoras" href="#myModal3" class="portfolio-link" data-toggle="modal" data-target="#myModal3">
                 <div id="panificadoras" class="caption img-circle">
                     <div class="caption-content">
                         <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
@@ -165,21 +165,21 @@
             <p  id="texto-panificadoras" class="texto-productos">Panificadoras</p>
         </div>
         <div class="col-sm-3 portfolio-item">
-            <a href="#myModal4" class="portfolio-link" data-toggle="modal" data-target="#myModal4">
+            <a id="especializado" href="#myModal4" class="portfolio-link" data-toggle="modal" data-target="#myModal4">
                 <div id="especial" class="caption img-circle">
                     <div class="caption-content">
-                       <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
-                   </div>
-               </div>
-               <img src="img/especializado-productos.jpg" class="margen-color img-responsive img-circle" alt="Especializado productos">
-           </a>
-           <p id="texto-especial" class="texto-productos">Especializado</p>
-       </div>
-   </div>
-   <div class="row">
+                     <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
+                 </div>
+             </div>
+             <img src="img/especializado-productos.jpg" class="margen-color img-responsive img-circle" alt="Especializado productos">
+         </a>
+         <p id="texto-especial" class="texto-productos">Especializado</p>
+     </div>
+ </div>
+ <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-10">
-       <ul class="list-inline centrar-lista">
+     <ul class="list-inline centrar-lista">
         <li >
             <p class="parrafo-productos">DISTRIBUIDOR AUTORIZADO</p>
         </li>
@@ -302,30 +302,30 @@
                             </li>
                             <li class="espacio-contacto1">
                               <img src="img/whatsapp-rmingredientes.png" alt="WhatsApp RM Ingredientes" width="50%">
-                            </li>
-                            <li class="espacio-contacto1">
-                                <a href="https://www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
-                            </li>
-                            <li class="espacio-contacto1">
-                                <a href="https://www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw
-" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
-                            </li>
-                            <li>
-                             <div id="success"></div>
-                             <div class="row">
-                                <div class="form-group col-xs-12">
-                                    <button type="submit" class="btn-naraja btn btn-success btn-lg">ENVIAR</button>
-                                </div>
+                          </li>
+                          <li class="espacio-contacto1">
+                            <a href="https://www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
+                        </li>
+                        <li class="espacio-contacto1">
+                            <a href="https://www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw
+                            " target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
+                        </li>
+                        <li>
+                           <div id="success"></div>
+                           <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn-naraja btn btn-success btn-lg">ENVIAR</button>
                             </div>
                         </div>
+                    </div>
 
-                    </li>
+                </li>
 
-                </ul>
+            </ul>
 
-            </div>
         </div>
-    </form>
+    </div>
+</form>
 
 </div>
 </div>
@@ -375,7 +375,7 @@
                         </div>
                         <div class="footer-col col-md-3  espacio-columna">
                             <ul class="list-inline espacio-lista">
-                             <li class="espacio-iconos">
+                               <li class="espacio-iconos">
                                 <a href="http://www.pastalaboratorio.com/" target="_blank"><img src="img/logo-pasta-blanco.png" alt="Logo Pasta Laboratorio Creativo"></a>
                             </li>
                             <li class="espacio-iconos">
@@ -385,20 +385,20 @@
                                 <a href="https://www.instagram.com/pasta.laboratorio/" target="_blank"><img src="img/instagram-pastalab.png" alt="instagram Pasta Laboratorio Creativo" width="50%"></a>
                             </li>
                             <li class="espacio-iconos">
-                             <a href="https://www.youtube.com/channel/UC2_hnm3Ek7pe2udLr8-RVog" target="_blank"><img src="img/youtube-pastalab.png" alt="Youtube Pasta Laboratorio Creativo" width="50%"></a>
-                         </li>
+                               <a href="https://www.youtube.com/channel/UC2_hnm3Ek7pe2udLr8-RVog" target="_blank"><img src="img/youtube-pastalab.png" alt="Youtube Pasta Laboratorio Creativo" width="50%"></a>
+                           </li>
 
-                     </ul>
-                     <p class="texto-footer-pasta">Diseñado por Pasta Laboratorio Creativo 2016</p>
-                 </div>
-             </div>
-             <!-- </div> -->
-         </div>
-         <div class="footer-below">
-         </div>
-     </footer>
+                       </ul>
+                       <p class="texto-footer-pasta">Diseñado por Pasta Laboratorio Creativo 2016</p>
+                   </div>
+               </div>
+               <!-- </div> -->
+           </div>
+           <div class="footer-below">
+           </div>
+       </footer>
 
-     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+       <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
   <!--   <div class="scroll-top page-scroll visible-xs visible-sm">
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
@@ -420,35 +420,35 @@
       </div>
       <div class="modal-body">
 
-         <div class="container-fluid">
-            <div class="row" style="margin-bottom: 5%;">
-              <div class="col-md-2"><img  style="width: 60%; margin: 0 auto;" class="img-responsive" src="img/benzoato-de-sodio-rmingredientes.png"></div>
-              <div class="col-md-10">
-                <div class="col-12 col-sm-12">
-                    <br>
-                    <h4 class="titulo-naranja-modal">Benzoato de Sodio</h4>
-                </div>
-                <div class="col-4 col-sm-4">
-                  <p class="parrafo-gris-modal">
-                      Agente antimicrobiano efectivo para la conservación de alimentos y bebidas cuyo ph sea menor de 4.5. <br>
-                      <b>Presentación:</b> Saco de papel Kraft con 25kg
-                  </p>
-              </div>
-              <div class="col-6 col-sm-6">
-                <p class="class parrafo-gris-modal">
+       <div class="container-fluid">
+        <div class="row" style="margin-bottom: 5%;">
+          <div class="col-md-2"><img  style="width: 60%; margin: 0 auto;" class="img-responsive" src="img/benzoato-de-sodio-rmingredientes.png"></div>
+          <div class="col-md-10">
+            <div class="col-12 col-sm-12">
+                <br>
+                <h4 class="titulo-naranja-modal">Benzoato de Sodio</h4>
+            </div>
+            <div class="col-4 col-sm-4">
+              <p class="parrafo-gris-modal">
+                  Agente antimicrobiano efectivo para la conservación de alimentos y bebidas cuyo ph sea menor de 4.5. <br>
+                  <b>Presentación:</b> Saco de papel Kraft con 25kg
+              </p>
+          </div>
+          <div class="col-6 col-sm-6">
+            <p class="class parrafo-gris-modal">
 
-                    <b>Modo de empleo:</b> Se utiliza de acuerdo al producto donde se vaya a utilizar. <br>
-                    <b>Beneficios:</b> Es efectivo contra Levaduras y Bacterias y de poca acción contra los Hongos. Es muy soluble en agua y soluble en alcohol.
-                </p>
-            </div>   
-            <div class="col-2 col-sm-2">
-             <p class="class parrafo-gris-modal">
+                <b>Modo de empleo:</b> Se utiliza de acuerdo al producto donde se vaya a utilizar. <br>
+                <b>Beneficios:</b> Es efectivo contra Levaduras y Bacterias y de poca acción contra los Hongos. Es muy soluble en agua y soluble en alcohol.
+            </p>
+        </div>   
+        <div class="col-2 col-sm-2">
+           <p class="class parrafo-gris-modal">
 
-               <b> Precio:</b>
-           </p>
-           <h4 class="titulo-naranja-modal">$2,136.00</h4>
-       </div>
-   </div>
+             <b> Precio:</b>
+         </p>
+         <h4 class="titulo-naranja-modal">$2,136.00</h4>
+     </div>
+ </div>
 </div>
 
 
@@ -474,13 +474,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$289.06</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$289.06</h4>
 
-<p class="parrafo-verde-modal">($21.45 por Kg)</p>
+ <p class="parrafo-verde-modal">($21.45 por Kg)</p>
 </div>
 </div>
 </div>
@@ -507,13 +507,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$742.50</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$742.50</h4>
 
-<p class="parrafo-verde-modal">($44.12 por Kg)</p>
+ <p class="parrafo-verde-modal">($44.12 por Kg)</p>
 </div>
 </div>
 </div>
@@ -539,13 +539,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$430.00</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$430.00</h4>
 
-<p class="parrafo-verde-modal">($35 por Kg)</p>
+ <p class="parrafo-verde-modal">($35 por Kg)</p>
 </div>
 </div>
 </div>
@@ -571,13 +571,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$1,068.86</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$1,068.86</h4>
 
-<p class="parrafo-verde-modal">($60.44 por Kg)</p>
+ <p class="parrafo-verde-modal">($60.44 por Kg)</p>
 </div>
 </div>
 </div>
@@ -606,13 +606,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$2185.75</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$2185.75</h4>
 
-<p class="parrafo-verde-modal">($50.16 por Litro)</p>
+ <p class="parrafo-verde-modal">($50.16 por Litro)</p>
 </div>
 </div>
 </div>
@@ -638,13 +638,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$2,211.10</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$2,211.10</h4>
 
-<p class="parrafo-verde-modal">($51.22 por Litro)</p>
+ <p class="parrafo-verde-modal">($51.22 por Litro)</p>
 </div>
 </div>
 </div>
@@ -672,13 +672,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$2,040.01</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$2,040.01</h4>
 
-<p class="parrafo-verde-modal">($51.22 por Kg)</p>
+ <p class="parrafo-verde-modal">($51.22 por Kg)</p>
 </div>
 </div>
 </div>
@@ -722,15 +722,15 @@
             </p>
         </div>   
         <div class="col-2 col-sm-2">
-         <p class="class parrafo-gris-modal">
+           <p class="class parrafo-gris-modal">
 
-           <b> Precio:</b>
-       </p>
-       <h4 class="titulo-naranja-modal">$289.06</h4>
+             <b> Precio:</b>
+         </p>
+         <h4 class="titulo-naranja-modal">$289.06</h4>
 
-       <p class="parrafo-verde-modal">($21.45 por Kg)</p>
-   </div>
-</div>
+         <p class="parrafo-verde-modal">($21.45 por Kg)</p>
+     </div>
+ </div>
 </div>
 <!-- dos -->
 <div class="row" style="margin-bottom: 5%;">
@@ -754,13 +754,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$1,929.60</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$1,929.60</h4>
 
-<p class="parrafo-verde-modal">($103.48 por Kg)</p>
+ <p class="parrafo-verde-modal">($103.48 por Kg)</p>
 </div>
 </div>
 </div>
@@ -786,13 +786,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$3,143.23</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$3,143.23</h4>
 
-<p class="parrafo-verde-modal">($164.16 por Kg)</p>
+ <p class="parrafo-verde-modal">($164.16 por Kg)</p>
 </div>
 </div>
 </div>
@@ -818,13 +818,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$845.80</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$845.80</h4>
 
-<p class="parrafo-verde-modal">($49.29 por Kg)</p>
+ <p class="parrafo-verde-modal">($49.29 por Kg)</p>
 </div>
 </div>
 </div>
@@ -851,13 +851,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$289.66</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$289.66</h4>
 
-<p class="parrafo-verde-modal">($21.48 por Kg)</p>
+ <p class="parrafo-verde-modal">($21.48 por Kg)</p>
 </div>
 </div>
 </div>
@@ -883,13 +883,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$1,068.86</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$1,068.86</h4>
 
-<p class="parrafo-verde-modal">($60.44 por Kg)</p>
+ <p class="parrafo-verde-modal">($60.44 por Kg)</p>
 </div>
 </div>
 </div>
@@ -915,13 +915,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$580.82</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$580.82</h4>
 
-<p class="parrafo-verde-modal">($36.04 por Kg)</p>
+ <p class="parrafo-verde-modal">($36.04 por Kg)</p>
 </div>
 </div>
 </div>
@@ -947,13 +947,13 @@
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$2,211.10</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$2,211.10</h4>
 
-<p class="parrafo-verde-modal">($51.22 por Litro)</p>
+ <p class="parrafo-verde-modal">($51.22 por Litro)</p>
 </div>
 </div>
 </div>
@@ -974,8 +974,8 @@
       <p>Productos especializados en el mejoramiento de panes. </p>
   </div>
   <div class="modal-body">
-  <!-- uno -->
- <div class="row" style="margin-bottom: 5%;">
+      <!-- uno -->
+      <div class="row" style="margin-bottom: 5%;">
           <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/aceite-oleina-palma-rmingredientes.png"></div>
           <div class="col-md-10">
             <div class="col-12 col-sm-12">
@@ -984,46 +984,13 @@
             </div>
             <div class="col-4 col-sm-4">
               <p class="parrafo-gris-modal">
-                 Especial para freído ya que resiste las altas temperaturas y no se evapora fácilmente.<br>
-                  <b>Presentación:</b> 20 litros.
-              </p>
-          </div>
-          <div class="col-6 col-sm-6">
-            <p class="class parrafo-gris-modal">
-                <b>Beneficios:</b> Aceites RBD, son free trans. Cremosidad = Palatabilidad, crunch de los alimentos fritos, color, mejor cocción. Excelente resistencia a las altas temperaturas de proceso en freído. Extiende la vida de anaquel. En algunos procesos el rendimiento al usar grasas base palma es mayor vs otras grasas base soya e hidrogenadas: 10-20% estabilidad en proceso. Precio competitivo. Además en Oleofinos aseguramos la calidad de los productos, por los altos estándares que manejamos, estamos certificados en: ISO 22000, Kosher, HACCP, BPM, RSPO.
-            </p>
-        </div>   
-        <div class="col-2 col-sm-2">
-           <p class="class parrafo-gris-modal">
-
-             <b> Precio:</b>
-         </p>
-         <h4 class="titulo-naranja-modal">$517.59</h4>
-      
-         <p class="parrafo-verde-modal">($32.87 por Kg)</p>
-     </div>
-     </div>
-</div>
-<!-- dos -->
- <div class="row" style="margin-bottom: 5%;">
-      <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/demolpan-rmingredientes.png"></div>
-      <div class="col-md-10">
-        <div class="col-12 col-sm-12">
-            <br>
-            <h4 class="titulo-naranja-modal">Demolpan</h4>
-        </div>
-        <div class="col-4 col-sm-4">
-          <p class="parrafo-gris-modal">
-             Antiadherente altamente efectivo para evitar que los productos de
-panadería y tortillería se peguen en los moldes y comales.<br>
-              <b>Presentación:</b> Cubeta de 18 kilos
-          </p>
-      </div>
-      <div class="col-6 col-sm-6">
+               Especial para freído ya que resiste las altas temperaturas y no se evapora fácilmente.<br>
+               <b>Presentación:</b> 20 litros.
+           </p>
+       </div>
+       <div class="col-6 col-sm-6">
         <p class="class parrafo-gris-modal">
-
-            <b>Modo de empleo:</b> Por su viscosidad puede ser aplicado manualmente, con brocha,  “muñeca”, o mecánicamente con engrasadoras. El molde y la brocha deben estar secos antes de su aplicación. Sólo es necesario usar una película fina de Demolpan sobre la superficie de las charolas o moldes y la cantidad dependerá de la forma y superficie de éstos.<br>
-            <b>Beneficios:</b> Aplicación rápida y sencilla. Es necesario usar harina en los moldes. Mantiene los moldes limpios. No le agrega ningún olor ni sabor a los alimentos.
+            <b>Beneficios:</b> Aceites RBD, son free trans. Cremosidad = Palatabilidad, crunch de los alimentos fritos, color, mejor cocción. Excelente resistencia a las altas temperaturas de proceso en freído. Extiende la vida de anaquel. En algunos procesos el rendimiento al usar grasas base palma es mayor vs otras grasas base soya e hidrogenadas: 10-20% estabilidad en proceso. Precio competitivo. Además en Oleofinos aseguramos la calidad de los productos, por los altos estándares que manejamos, estamos certificados en: ISO 22000, Kosher, HACCP, BPM, RSPO.
         </p>
     </div>   
     <div class="col-2 col-sm-2">
@@ -1031,138 +998,171 @@ panadería y tortillería se peguen en los moldes y comales.<br>
 
        <b> Precio:</b>
    </p>
-   <h4 class="titulo-naranja-modal">$720.84</h4>
+   <h4 class="titulo-naranja-modal">$517.59</h4>
 
-   <p class="parrafo-verde-modal">($43.04 por Kg)</p>
+   <p class="parrafo-verde-modal">($32.87 por Kg)</p>
+</div>
+</div>
+</div>
+<!-- dos -->
+<div class="row" style="margin-bottom: 5%;">
+  <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/demolpan-rmingredientes.png"></div>
+  <div class="col-md-10">
+    <div class="col-12 col-sm-12">
+        <br>
+        <h4 class="titulo-naranja-modal">Demolpan</h4>
+    </div>
+    <div class="col-4 col-sm-4">
+      <p class="parrafo-gris-modal">
+       Antiadherente altamente efectivo para evitar que los productos de
+       panadería y tortillería se peguen en los moldes y comales.<br>
+       <b>Presentación:</b> Cubeta de 18 kilos
+   </p>
+</div>
+<div class="col-6 col-sm-6">
+    <p class="class parrafo-gris-modal">
+
+        <b>Modo de empleo:</b> Por su viscosidad puede ser aplicado manualmente, con brocha,  “muñeca”, o mecánicamente con engrasadoras. El molde y la brocha deben estar secos antes de su aplicación. Sólo es necesario usar una película fina de Demolpan sobre la superficie de las charolas o moldes y la cantidad dependerá de la forma y superficie de éstos.<br>
+        <b>Beneficios:</b> Aplicación rápida y sencilla. Es necesario usar harina en los moldes. Mantiene los moldes limpios. No le agrega ningún olor ni sabor a los alimentos.
+    </p>
+</div>   
+<div class="col-2 col-sm-2">
+   <p class="class parrafo-gris-modal">
+
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$720.84</h4>
+
+ <p class="parrafo-verde-modal">($43.04 por Kg)</p>
 </div>
 </div>
 </div>
 <!-- tres -->
- <div class="row" style="margin-bottom: 5%;">
-      <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/estructurex-rmingredientes.png"></div>
-      <div class="col-md-10">
-        <div class="col-12 col-sm-12">
-            <br>
-            <h4 class="titulo-naranja-modal">Estructurex</h4>
-        </div>
-        <div class="col-4 col-sm-4">
-          <p class="parrafo-gris-modal">
-             Proteinas vegetales y lácteos, que hace funcionen en forma similar al huevo entero en cascaron.<br>
-              <b>Presentación:</b> Bulto de papel craft de 25 kilos
-          </p>
-      </div>
-      <div class="col-6 col-sm-6">
-        <p class="class parrafo-gris-modal">
-
-            <b>Modo de empleo:</b> Para hacer un litro de huevo se adicionan 250g de estructurex disueltos en 750g de agua, y esto se adiciona con los demás ingredientes. En galletería, bísquet y pasta para sopas se puede sustituir a un 100%. En pastelería, panquelería y biscocho se puede sustituir hasta un 50%<br>
-            <b>Beneficios:</b> Fácil de manejar. Evita desperdicios. Funcionalidad similar al huevo a menor costo. No genera olor a huevo. Menos colesterol en producto terminado. Estabiliidad en precios. Reducción de tiempo en producción.
-        </p>
-    </div>   
-    <div class="col-2 col-sm-2">
-     <p class="class parrafo-gris-modal">
-
-       <b> Precio:</b>
+<div class="row" style="margin-bottom: 5%;">
+  <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/estructurex-rmingredientes.png"></div>
+  <div class="col-md-10">
+    <div class="col-12 col-sm-12">
+        <br>
+        <h4 class="titulo-naranja-modal">Estructurex</h4>
+    </div>
+    <div class="col-4 col-sm-4">
+      <p class="parrafo-gris-modal">
+       Proteinas vegetales y lácteos, que hace funcionen en forma similar al huevo entero en cascaron.<br>
+       <b>Presentación:</b> Bulto de papel craft de 25 kilos
    </p>
-   <h4 class="titulo-naranja-modal">$1,256.49</h4>
+</div>
+<div class="col-6 col-sm-6">
+    <p class="class parrafo-gris-modal">
 
-   <p class="parrafo-verde-modal">($69.82 por Kg)</p>
+        <b>Modo de empleo:</b> Para hacer un litro de huevo se adicionan 250g de estructurex disueltos en 750g de agua, y esto se adiciona con los demás ingredientes. En galletería, bísquet y pasta para sopas se puede sustituir a un 100%. En pastelería, panquelería y biscocho se puede sustituir hasta un 50%<br>
+        <b>Beneficios:</b> Fácil de manejar. Evita desperdicios. Funcionalidad similar al huevo a menor costo. No genera olor a huevo. Menos colesterol en producto terminado. Estabiliidad en precios. Reducción de tiempo en producción.
+    </p>
+</div>   
+<div class="col-2 col-sm-2">
+   <p class="class parrafo-gris-modal">
+
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$1,256.49</h4>
+
+ <p class="parrafo-verde-modal">($69.82 por Kg)</p>
 </div>
 </div>
 </div>
-     <!-- cuatro -->
-     <div class="row" style="margin-bottom: 5%;">
-      <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/magico-rmingredientes.png"></div>
-      <div class="col-md-10">
-        <div class="col-12 col-sm-12">
-            <br>
-            <h4 class="titulo-naranja-modal">Magico</h4>
-        </div>
-        <div class="col-4 col-sm-4">
-          <p class="parrafo-gris-modal">
-              Polvo de hornear leudante con desprendimiento de gas moderado y uniforme. Apropiado para la fabricación de pastelería, panquelería y tortillas de harina de trigo.<br>
-              <b>Presentación:</b> Bolsa de papel kraft de 15kg
-          </p>
-      </div>
-      <div class="col-6 col-sm-6">
-        <p class="class parrafo-gris-modal">
+<!-- cuatro -->
+<div class="row" style="margin-bottom: 5%;">
+  <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/magico-rmingredientes.png"></div>
+  <div class="col-md-10">
+    <div class="col-12 col-sm-12">
+        <br>
+        <h4 class="titulo-naranja-modal">Magico</h4>
+    </div>
+    <div class="col-4 col-sm-4">
+      <p class="parrafo-gris-modal">
+          Polvo de hornear leudante con desprendimiento de gas moderado y uniforme. Apropiado para la fabricación de pastelería, panquelería y tortillas de harina de trigo.<br>
+          <b>Presentación:</b> Bolsa de papel kraft de 15kg
+      </p>
+  </div>
+  <div class="col-6 col-sm-6">
+    <p class="class parrafo-gris-modal">
 
-            <b>Modo de empleo:</b> Se añade junto con los demás polvos al momento de hacer el batido o masa. Dosificación: Del 1% al 6% base harina. En tortillas de harina de trigo se recomiendan 370g por bulto de 44kg de harina.<br>
-            <b>Beneficios:</b> Doble acción: Al momento del cocimiento de la masa y en el producto terminado, cuando se calienta la tortilla se tiende a inflar en el comal. Mayor rendimiento debido a la calidad de nuestros productos.
-            Ejemplo: con otras marcas conocidas a un bulto de harina de trigo se le aplican 700g o más y del producto mágico se aplican solamente 370g por bulto.
-        </p>
-    </div>   
-    <div class="col-2 col-sm-2">
-     <p class="class parrafo-gris-modal">
+        <b>Modo de empleo:</b> Se añade junto con los demás polvos al momento de hacer el batido o masa. Dosificación: Del 1% al 6% base harina. En tortillas de harina de trigo se recomiendan 370g por bulto de 44kg de harina.<br>
+        <b>Beneficios:</b> Doble acción: Al momento del cocimiento de la masa y en el producto terminado, cuando se calienta la tortilla se tiende a inflar en el comal. Mayor rendimiento debido a la calidad de nuestros productos.
+        Ejemplo: con otras marcas conocidas a un bulto de harina de trigo se le aplican 700g o más y del producto mágico se aplican solamente 370g por bulto.
+    </p>
+</div>   
+<div class="col-2 col-sm-2">
+   <p class="class parrafo-gris-modal">
 
-       <b> Precio:</b>
-   </p>
-   <h4 class="titulo-naranja-modal">$289.66</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$289.66</h4>
 
-   <p class="parrafo-verde-modal">($21.48 por Kg)</p>
+ <p class="parrafo-verde-modal">($21.48 por Kg)</p>
 </div>
 </div>
 </div>
 <!-- cinco -->
-     <div class="row" style="margin-bottom: 5%;">
-      <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/suavimul-rmingredientes.png"></div>
-      <div class="col-md-10">
-        <div class="col-12 col-sm-12">
-            <br>
-            <h4 class="titulo-naranja-modal">Suavimul</h4>
-        </div>
-        <div class="col-4 col-sm-4">
-          <p class="parrafo-gris-modal">
-             Mejorador para uso en panificación, para productos de fermentación, galletas y tortillas de harina de trigo. <br>
-              <b>Presentación:</b> Cubeta de 18.5kg
-          </p>
-      </div>
-      <div class="col-6 col-sm-6">
-        <p class="class parrafo-gris-modal">
-
-            <b>Modo de empleo:</b> Se agrega en forma directa a la masa de pan, galletas o tortillas de harina de trigo, junto con los demás ingredientes.<br>
-            <b>Beneficios:</b> Mejora la textura, da mayor suavidad, aumenta el volumen. Incrementa la absorción de agua. Incrementa vida de anaquel.
-        </p>
-    </div>   
-    <div class="col-2 col-sm-2">
-     <p class="class parrafo-gris-modal">
-
-       <b> Precio:</b>
+<div class="row" style="margin-bottom: 5%;">
+  <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/suavimul-rmingredientes.png"></div>
+  <div class="col-md-10">
+    <div class="col-12 col-sm-12">
+        <br>
+        <h4 class="titulo-naranja-modal">Suavimul</h4>
+    </div>
+    <div class="col-4 col-sm-4">
+      <p class="parrafo-gris-modal">
+       Mejorador para uso en panificación, para productos de fermentación, galletas y tortillas de harina de trigo. <br>
+       <b>Presentación:</b> Cubeta de 18.5kg
    </p>
-   <h4 class="titulo-naranja-modal">$993.26</h4>
+</div>
+<div class="col-6 col-sm-6">
+    <p class="class parrafo-gris-modal">
 
-   <p class="parrafo-verde-modal">($56.66 por Kg)</p>
+        <b>Modo de empleo:</b> Se agrega en forma directa a la masa de pan, galletas o tortillas de harina de trigo, junto con los demás ingredientes.<br>
+        <b>Beneficios:</b> Mejora la textura, da mayor suavidad, aumenta el volumen. Incrementa la absorción de agua. Incrementa vida de anaquel.
+    </p>
+</div>   
+<div class="col-2 col-sm-2">
+   <p class="class parrafo-gris-modal">
+
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$993.26</h4>
+
+ <p class="parrafo-verde-modal">($56.66 por Kg)</p>
 </div>
 </div>
 </div>
 <!-- seis -->
-     <div class="row" style="margin-bottom: 5%;">
-      <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/sucanela-rmingredientes.png"></div>
-      <div class="col-md-10">
-        <div class="col-12 col-sm-12">
-            <br>
-            <h4 class="titulo-naranja-modal">Sucanela</h4>
-        </div>
-        <div class="col-4 col-sm-4">
-          <p class="parrafo-gris-modal">
-             Sustituto de canela en polvo, de granulación uniforme, de color café, de olor y sabor picante característicos de la canela. Sustituye a la canela molida en todas sus aplicaciones. <br>
-              <b>Presentación:</b> Bulto de 25kg.
-          </p>
-      </div>
-      <div class="col-6 col-sm-6">
-        <p class="class parrafo-gris-modal">
-
-            <b>Modo de empleo:</b> Se mezcla junto con los demás ingredientes de la formulación, o se espolvorea sobre el producto ya terminado.<br>
-            <b>Beneficios:</b> Menor costo en la elaboración de productos que contengan canela natural. Mejor sabor que la canela natural.
-        </p>
-    </div>   
-    <div class="col-2 col-sm-2">
-     <p class="class parrafo-gris-modal">
-
-       <b> Precio:</b>
+<div class="row" style="margin-bottom: 5%;">
+  <div class="col-md-2"><img style=" margin: 0 auto;" class="img-responsive" src="img/sucanela-rmingredientes.png"></div>
+  <div class="col-md-10">
+    <div class="col-12 col-sm-12">
+        <br>
+        <h4 class="titulo-naranja-modal">Sucanela</h4>
+    </div>
+    <div class="col-4 col-sm-4">
+      <p class="parrafo-gris-modal">
+       Sustituto de canela en polvo, de granulación uniforme, de color café, de olor y sabor picante característicos de la canela. Sustituye a la canela molida en todas sus aplicaciones. <br>
+       <b>Presentación:</b> Bulto de 25kg.
    </p>
-   <h4 class="titulo-naranja-modal">$762.11</h4>
+</div>
+<div class="col-6 col-sm-6">
+    <p class="class parrafo-gris-modal">
 
-   <p class="parrafo-verde-modal">($37.04 por Kg)</p>
+        <b>Modo de empleo:</b> Se mezcla junto con los demás ingredientes de la formulación, o se espolvorea sobre el producto ya terminado.<br>
+        <b>Beneficios:</b> Menor costo en la elaboración de productos que contengan canela natural. Mejor sabor que la canela natural.
+    </p>
+</div>   
+<div class="col-2 col-sm-2">
+   <p class="class parrafo-gris-modal">
+
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$762.11</h4>
+
+ <p class="parrafo-verde-modal">($37.04 por Kg)</p>
 </div>
 </div>
 </div>
@@ -1182,66 +1182,66 @@ panadería y tortillería se peguen en los moldes y comales.<br>
       <p>Productos utilizados en el mejoramiento de salsas, frijoles, mermeladas, cajetas, entre otros alimentos.</p>
   </div>
   <div class="modal-body">
-  <!-- uno -->
-   <div class="row" style="margin-bottom: 5%;">
-              <div class="col-md-2"><img  style="width: 60%; margin: 0 auto;" class="img-responsive" src="img/benzoato-de-sodio-rmingredientes.png"></div>
-              <div class="col-md-10">
-                <div class="col-12 col-sm-12">
-                    <br>
-                    <h4 class="titulo-naranja-modal">Benzoato de Sodio</h4>
-                </div>
-                <div class="col-4 col-sm-4">
-                  <p class="parrafo-gris-modal">
-                      Agente antimicrobiano efectivo para la conservación de alimentos y bebidas cuyo ph sea menor de 4.5. <br>
-                      <b>Presentación:</b> Saco de papel Kraft con 25kg
-                  </p>
-              </div>
-              <div class="col-6 col-sm-6">
-                <p class="class parrafo-gris-modal">
+      <!-- uno -->
+      <div class="row" style="margin-bottom: 5%;">
+          <div class="col-md-2"><img  style="width: 60%; margin: 0 auto;" class="img-responsive" src="img/benzoato-de-sodio-rmingredientes.png"></div>
+          <div class="col-md-10">
+            <div class="col-12 col-sm-12">
+                <br>
+                <h4 class="titulo-naranja-modal">Benzoato de Sodio</h4>
+            </div>
+            <div class="col-4 col-sm-4">
+              <p class="parrafo-gris-modal">
+                  Agente antimicrobiano efectivo para la conservación de alimentos y bebidas cuyo ph sea menor de 4.5. <br>
+                  <b>Presentación:</b> Saco de papel Kraft con 25kg
+              </p>
+          </div>
+          <div class="col-6 col-sm-6">
+            <p class="class parrafo-gris-modal">
 
-                    <b>Modo de empleo:</b> Se utiliza de acuerdo al producto donde se vaya a utilizar. <br>
-                    <b>Beneficios:</b> Es efectivo contra Levaduras y Bacterias y de poca acción contra los Hongos. Es muy soluble en agua y soluble en alcohol.
-                </p>
-            </div>   
-            <div class="col-2 col-sm-2">
-             <p class="class parrafo-gris-modal">
+                <b>Modo de empleo:</b> Se utiliza de acuerdo al producto donde se vaya a utilizar. <br>
+                <b>Beneficios:</b> Es efectivo contra Levaduras y Bacterias y de poca acción contra los Hongos. Es muy soluble en agua y soluble en alcohol.
+            </p>
+        </div>   
+        <div class="col-2 col-sm-2">
+           <p class="class parrafo-gris-modal">
 
-               <b> Precio:</b>
-           </p>
-           <h4 class="titulo-naranja-modal">$2,136.00</h4>
-       </div>
-   </div>
+             <b> Precio:</b>
+         </p>
+         <h4 class="titulo-naranja-modal">$2,136.00</h4>
+     </div>
+ </div>
 </div>
 <!-- dos -->
-  <div class="row" style="margin-bottom: 5%;">
-              <div class="col-md-2"><img  style="width: 60%; margin: 0 auto;" class="img-responsive" src="img/propionato-calcio-rmingredientes.png"></div>
-              <div class="col-md-10">
-                <div class="col-12 col-sm-12">
-                    <br>
-                    <h4 class="titulo-naranja-modal">Propionato de Calcio</h4>
-                </div>
-                <div class="col-4 col-sm-4">
-                  <p class="parrafo-gris-modal">
-                      Conservador de uso múltiple, en panificación se utiliza en masas fermentadas con levadura debido a su bajo efecto sobre esta. También se utiliza para la elaboración de tortillas de harina. <br>
-                      <b>Presentación:</b> Saco de papel Kraft con 25 kg
-                  </p>
-              </div>
-              <div class="col-6 col-sm-6">
-                <p class="class parrafo-gris-modal">
+<div class="row" style="margin-bottom: 5%;">
+  <div class="col-md-2"><img  style="width: 60%; margin: 0 auto;" class="img-responsive" src="img/propionato-calcio-rmingredientes.png"></div>
+  <div class="col-md-10">
+    <div class="col-12 col-sm-12">
+        <br>
+        <h4 class="titulo-naranja-modal">Propionato de Calcio</h4>
+    </div>
+    <div class="col-4 col-sm-4">
+      <p class="parrafo-gris-modal">
+          Conservador de uso múltiple, en panificación se utiliza en masas fermentadas con levadura debido a su bajo efecto sobre esta. También se utiliza para la elaboración de tortillas de harina. <br>
+          <b>Presentación:</b> Saco de papel Kraft con 25 kg
+      </p>
+  </div>
+  <div class="col-6 col-sm-6">
+    <p class="class parrafo-gris-modal">
 
-                    <b>Modo de empleo:</b> El propionato de calcio se añade junto con los demás ingredientes al elaborar el producto.<br>
-                    <b>Beneficios:</b> Vida de anaquel en productos leudados.
-                </p>
-            </div>   
-            <div class="col-2 col-sm-2">
-             <p class="class parrafo-gris-modal">
+        <b>Modo de empleo:</b> El propionato de calcio se añade junto con los demás ingredientes al elaborar el producto.<br>
+        <b>Beneficios:</b> Vida de anaquel en productos leudados.
+    </p>
+</div>   
+<div class="col-2 col-sm-2">
+   <p class="class parrafo-gris-modal">
 
-               <b> Precio:</b>
-           </p>
-           <h4 class="titulo-naranja-modal">$2,008.99</h4>
-           <p class="parrafo-verde-modal">($107.44 por Kg)</p>
-       </div>
-   </div>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$2,008.99</h4>
+ <p class="parrafo-verde-modal">($107.44 por Kg)</p>
+</div>
+</div>
 </div>
 <!-- tres -->
 <div class="row" style="margin-bottom: 5%;">
@@ -1267,23 +1267,22 @@ panadería y tortillería se peguen en los moldes y comales.<br>
     </p>
 </div>   
 <div class="col-2 col-sm-2">
- <p class="class parrafo-gris-modal">
+   <p class="class parrafo-gris-modal">
 
-   <b> Precio:</b>
-</p>
-<h4 class="titulo-naranja-modal">$2,040.01</h4>
+     <b> Precio:</b>
+ </p>
+ <h4 class="titulo-naranja-modal">$2,040.01</h4>
 
-<p class="parrafo-verde-modal">($51.22 por Kg)</p>
+ <p class="parrafo-verde-modal">($51.22 por Kg)</p>
 </div>
 </div>
 </div>
- 
+
 </div>
 </div>
 </div>
 </div>
 <!--   final mio -->
-
 
 
 <!-- jQuery -->
@@ -1318,22 +1317,22 @@ panadería y tortillería se peguen en los moldes y comales.<br>
         }
 
         // autoplay video
-       function onPlayerReady(event) {
-        $('#demostraciones').click(
-           function(){ 
-            player.playVideo();
-         })
+        function onPlayerReady(event) {
+            $('#demostraciones').click(
+             function(){ 
+                player.playVideo();
+            })
 
-          $(window).scroll(function(e) {
+            $(window).scroll(function(e) {
 
-        var scrollAmount = $('body').scrollTop();   
-        console.log(scrollAmount);
+                var scrollAmount = $('body').scrollTop();   
+                console.log(scrollAmount);
 
-        if (scrollAmount == 2233) {
-            player.playVideo();
-            return;
-        }
-        })
+                if (scrollAmount == 2233) {
+                    player.playVideo();
+                    return;
+                }
+            })
 
         }
 
@@ -1357,6 +1356,36 @@ panadería y tortillería se peguen en los moldes y comales.<br>
             document.getElementById('soluciones').src="img/soluciones-large.png";
         }
     </script>
+
+    <script>
+        $(document).ready(function() {
+            var countmaiz = 0;
+            var coutharina = 0;
+            var countpanificadoras =  0;
+            var countespecializado = 0;
+
+            $("#tortillas-maiz").click(function() {
+                countmaiz++;
+                alert(countmaiz);
+            });
+            $("#tortillas-harina").click(function() {
+                coutharina++;
+                alert(coutharina);
+            });
+            $("#panificadoras").click(function() {
+                countpanificadoras++;
+                alert(countpanificadoras);
+            });
+            $("#especializado").click(function() {
+                countespecializado++;
+                alert(countespecializado);
+            });
+
+        });
+
+    </script>
+
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -1388,8 +1417,8 @@ $hoy = date("Y-m-d");
 $consulta_visita_real = "SELECT * FROM visitas WHERE fecha='$hoy' AND ip='".$_SERVER['REMOTE_ADDR']."'";
 $rs_visita_real = mysqli_query($con, $consulta_visita_real);
 if (mysqli_num_rows($rs_visita_real) == 0) {
-   $hoy = date("Y-m-d");
-   $insert_real = "INSERT INTO visitas (ip, fecha, num) VALUES ('".$_SERVER['REMOTE_ADDR']."', '$hoy', 1)";
-   mysqli_query($con, $insert_real);
+ $hoy = date("Y-m-d");
+ $insert_real = "INSERT INTO visitas (ip, fecha, num) VALUES ('".$_SERVER['REMOTE_ADDR']."', '$hoy', 1)";
+ mysqli_query($con, $insert_real);
 }
 ?>
