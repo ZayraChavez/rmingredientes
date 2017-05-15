@@ -11,7 +11,7 @@
     <!-- favicon -->
     <link rel="icon" type="image/png" href="img/favicon-rmingredientes.png" />
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http:bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
@@ -20,14 +20,14 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http:fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http:fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file: -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https:oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
     </head>
@@ -211,7 +211,7 @@
         <div class="row">
             <div class="col-md-12 text-center video">
                 <div id="player"></div>
-                <!-- <iframe id="player" style="border-radius: 2%" width='70%' height='400' src='https://www.youtube.com/embed/P-Kq9edwyDs?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe> -->
+                <!-- <iframe id="player" style="border-radius: 2%" width='70%' height='400' src='https:www.youtube.com/embed/P-Kq9edwyDs?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe> -->
             </div>
         </div>
         <br>
@@ -304,10 +304,10 @@
                               <img src="img/whatsapp-rmingredientes.png" alt="WhatsApp RM Ingredientes" width="50%">
                           </li>
                           <li class="espacio-contacto1">
-                            <a href="https://www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
+                            <a href="https:www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
                         </li>
                         <li class="espacio-contacto1">
-                            <a href="https://www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw
+                            <a href="https:www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw
                             " target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
                         </li>
                         <li>
@@ -355,10 +355,10 @@
                             <img src="img/logo-rmingredientes-footer.png" alt="Logo RM Ingredientes" width="40%">
                             <ul class="list-inline espacio-lista">
                                 <li class="espacio-iconos">
-                                    <a href="https://www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
+                                    <a href="https:www.facebook.com/RM-Ingredientes-1847550548863220/?fref=ts" target="_blank"><img src="img/facebook-rmingredientes.png" alt="Facebook RM Ingredientes" width="50%"></a>
                                 </li>
                                 <li class="espacio-iconos">
-                                    <a href="https://www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
+                                    <a href="https:www.youtube.com/channel/UC2XSq87TxzW-1bpK9oy-9zw" target="_blank"><img src="img/youtube-rmingredientes.png" alt="Youtube RM ingredientes" width="50%"></a>
                                 </li>
                                 <li class="espacio-iconos">
                                     <img src="img/whatsapp-rmingredientes.png" alt="Youtube RM ingredientes" width="50%">
@@ -376,16 +376,16 @@
                         <div class="footer-col col-md-3  espacio-columna">
                             <ul class="list-inline espacio-lista">
                                <li class="espacio-iconos">
-                                <a href="http://www.pastalaboratorio.com/" target="_blank"><img src="img/logo-pasta-blanco.png" alt="Logo Pasta Laboratorio Creativo"></a>
+                                <a href="http:www.pastalaboratorio.com/" target="_blank"><img src="img/logo-pasta-blanco.png" alt="Logo Pasta Laboratorio Creativo"></a>
                             </li>
                             <li class="espacio-iconos">
-                                <a href="https://www.facebook.com/PastaLabCreativo/?fref=ts" target="_blank"><img src="img/facebook-pastalab.png" alt="Facebook Pasta Laboratorio Creativo" width="50%"></a>
+                                <a href="https:www.facebook.com/PastaLabCreativo/?fref=ts" target="_blank"><img src="img/facebook-pastalab.png" alt="Facebook Pasta Laboratorio Creativo" width="50%"></a>
                             </li>
                             <li class="espacio-iconos">
-                                <a href="https://www.instagram.com/pasta.laboratorio/" target="_blank"><img src="img/instagram-pastalab.png" alt="instagram Pasta Laboratorio Creativo" width="50%"></a>
+                                <a href="https:www.instagram.com/pasta.laboratorio/" target="_blank"><img src="img/instagram-pastalab.png" alt="instagram Pasta Laboratorio Creativo" width="50%"></a>
                             </li>
                             <li class="espacio-iconos">
-                               <a href="https://www.youtube.com/channel/UC2_hnm3Ek7pe2udLr8-RVog" target="_blank"><img src="img/youtube-pastalab.png" alt="Youtube Pasta Laboratorio Creativo" width="50%"></a>
+                               <a href="https:www.youtube.com/channel/UC2_hnm3Ek7pe2udLr8-RVog" target="_blank"><img src="img/youtube-pastalab.png" alt="Youtube Pasta Laboratorio Creativo" width="50%"></a>
                            </li>
 
                        </ul>
@@ -1289,10 +1289,10 @@
 <script src="js/jquery.js"></script>
 
 <!-- API Youtube -->
-<script src="http://www.youtube.com/player_api"></script>
+<script src="http:www.youtube.com/player_api"></script>
 
 <script>
-        // create youtube player
+         create youtube player
         var player;
         var player2;
         function onYouTubePlayerAPIReady() {
@@ -1316,7 +1316,7 @@
         });
         }
 
-        // autoplay video
+         autoplay video
         function onPlayerReady(event) {
             $('#demostraciones').click(
              function(){ 
@@ -1336,7 +1336,7 @@
 
         }
 
-        // when video ends
+         when video ends
         function onPlayerStateChange(event) {        
             if(event.data === 0) {  
                 player.loadVideoById("bQ18EVmbddM");
@@ -1359,26 +1359,60 @@
 
     <script>
         $(document).ready(function() {
-            var countmaiz = 0;
-            var coutharina = 0;
-            var countpanificadoras =  0;
-            var countespecializado = 0;
 
             $("#tortillas-maiz").click(function() {
-                countmaiz++;
-                alert(countmaiz);
+                 $.ajax({
+                        url: 'mail/contador.php',
+                        type: 'POST',
+                        data: {categoria:1},
+                        error: function() {
+                           console.error("error");
+                        },
+                        success: function(respuesta) {
+                           console.log(JSON.stringify(respuesta));
+                        }
+                     })
+
             });
+
             $("#tortillas-harina").click(function() {
-                coutharina++;
-                alert(coutharina);
+                 $.ajax({
+                        url: 'mail/contador.php',
+                        type: 'POST',
+                        data: {categoria:2},
+                        error: function() {
+                           console.error("error");
+                        },
+                        success: function(respuesta) {
+                           console.log(JSON.stringify(respuesta));
+                        }
+                     })
             });
             $("#panificadoras").click(function() {
-                countpanificadoras++;
-                alert(countpanificadoras);
+                 $.ajax({
+                        url: 'mail/contador.php',
+                        type: 'POST',
+                        data: {categoria:3},
+                        error: function() {
+                           console.error("error");
+                        },
+                        success: function(respuesta) {
+                           console.log(JSON.stringify(respuesta));
+                        }
+                     })
             });
             $("#especializado").click(function() {
-                countespecializado++;
-                alert(countespecializado);
+                 $.ajax({
+                        url: 'mail/contador.php',
+                        type: 'POST',
+                        data: {categoria:4},
+                        error: function() {
+                           console.error("error");
+                        },
+                        success: function(respuesta) {
+                           console.log(JSON.stringify(respuesta));
+                        }
+                     })
             });
 
         });
@@ -1391,7 +1425,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http:cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
