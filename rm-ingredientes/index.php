@@ -72,6 +72,10 @@
                         <a id="contacto" href="#contactanos"><h4>CONTACTO</h4></a>
                         <hr id="hr-contacto" class="menutext">
                     </li>
+                    <li   class="page-scroll li-separation ">
+                        <a id="" href="http://tienda.rmingredientes.com/Tienda/productos"><span style="color:#EA881D; font-size: 30px;" class="glyphicon glyphicon-shopping-cart"></span></a>
+                       
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -131,8 +135,11 @@
         </div>
         <br>
         <div class="row">
+        <form id="my_form" action="http://tienda.rmingredientes.com/Tienda/maiz" method="post">
+ <input type="hidden" name="cat" value="1" />
             <div class="col-sm-3 portfolio-item">
-                <a id="tortillas-maiz" href="#myModal" class="portfolio-link" data-toggle="modal" data-target="#myModal">
+                <a id="tortillas-maiz" name="maiz" href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;" class="portfolio-link">
+               <!--  <input type="submit" name="maiz" value="Buscar" /> -->
                     <div id="maiz" class="caption img-circle">
                         <div class="caption-content ">
                             <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
@@ -142,8 +149,12 @@
                 </a>
                 <p id="texto-maiz" class="texto-productos">Tortillas<br> de Maíz</p>
             </div>
+</form>
+
+     <form id="my_form2" action="http://tienda.rmingredientes.com/Tienda/harina" method="post">
+ <input type="hidden" name="cat" value="2" />
             <div class="col-sm-3 portfolio-item">
-                <a id="tortillas-harina" href="#myModal2" class="portfolio-link" data-toggle="modal" data-target="#myModal2">
+                <a id="tortillas-harina" name="harina" href="javascript:{}" onclick="document.getElementById('my_form2').submit(); return false;" class="portfolio-link" >
                     <div id="harina" class="caption img-circle">
                         <div class="caption-content">
                            <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
@@ -153,8 +164,13 @@
                </a>
                <p id="texto-harina" class="texto-productos">Tortillas<br> de Harina</p>
            </div>
+</form>
+
+     <form id="my_form3" action="http://tienda.rmingredientes.com/Tienda/panificadoras" method="post">
+ <input type="hidden" name="cat" value="3" />
+
            <div class="col-sm-3 portfolio-item">
-            <a id="panificadoras" href="#myModal3" class="portfolio-link" data-toggle="modal" data-target="#myModal3">
+            <a id="panificadoras" name="panificadoras" href="javascript:{}" onclick="document.getElementById('my_form3').submit(); return false;" class="portfolio-link">
                 <div id="panificadoras" class="caption img-circle">
                     <div class="caption-content">
                         <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
@@ -164,8 +180,13 @@
             </a>
             <p  id="texto-panificadoras" class="texto-productos">Panificadoras</p>
         </div>
+
+        </form>
+
+            <form id="my_form4" action="http://tienda.rmingredientes.com/Tienda/especializado" method="post">
+ <input type="hidden" name="cat" value="4" />
         <div class="col-sm-3 portfolio-item">
-            <a id="especializado" href="#myModal4" class="portfolio-link" data-toggle="modal" data-target="#myModal4">
+            <a id="especializado" name="especializado" href="javascript:{}" onclick="document.getElementById('my_form4').submit(); return false;" class="portfolio-link">
                 <div id="especial" class="caption img-circle">
                     <div class="caption-content">
                      <i class="fa"> <img width="50em" src="img/maiz-hover.png" alt="Maíz"></i>
@@ -175,6 +196,7 @@
          </a>
          <p id="texto-especial" class="texto-productos">Especializado</p>
      </div>
+     </form>
  </div>
  <div class="row">
     <div class="col-md-1"></div>
