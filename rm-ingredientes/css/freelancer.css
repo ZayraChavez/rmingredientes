@@ -1035,3 +1035,8 @@ Full screen Modal
 .quitarpadding{
     padding-right: 0 !important;
 }
+.disenio-terminos{
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+}

@@ -215,6 +215,17 @@
 </div>
 <div class="col-md-1"></div>
 </div>
+<br>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <center>
+        <input type="button" style="background-color: transparent !important; border: none !important;
+ color: white !important;  font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 20px;     outline: transparent;" class="disenio-terminos text-center" onclick="window.open('Terminos-Condiciones-RMIngredientes.pdf')" value="Consulta terminos y condiciones">
+ </center>
+    </div>
+    <div class="col-md-4"></div>
+</div>
 </div>
 </section>
 <!-- lineas -->
